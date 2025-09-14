@@ -1,0 +1,58 @@
+CLASSES VS. INSTANCES; STATE AND BEHAVIOR
+
+in OOP, ,we created separate class with it own attributes and from that, that will be considered the structure of the program
+
+CLASS
+- Template/blueprint for defining the objects
+- Defines the structure and behavior (attributes and methods) that objects will have.
+- A logical entity that defines what an object will lok like and how it will behave.
+
+OBJECT
+- The basic unit of OOP
+- Represents the real-life entities.
+- An instance of a class
+- An object has characteristics or attributes.
+- the value of an object's attributes gives the object a state.
+- Actions that an object can take is called behavior.
+- Individual objects possess each own set of
+
+Car myCar = new Car();
+
+Car(); -> "Constructor"
+
+ATTRIBUTES
+- AKA Fields or instance variables
+Each object will have its own copy of these attributes
+
+STATE
+- Current values stored in its attributes a=
+- AKA Field or properties
+- Basta ung mismong value.
+
+= CREATING CLASSES & OBJECTS =
+* Class name - Use PascalCase (ex.: BankAccount)
+* Attributes - represent data of the object. Usually declared as private.
+* Constructor - Special method to initialize object. Should be same name as the class.
+* Getters & Setters - Allow controlled access to private fields.
+
+= DESIGNING METHODS =
+* Methods signature - Includes access modifier, return type, name, and parameters.
+* Method Naming - use camelCase. Name should reflect its purpose.
+* Method Overloading - multiple methods with the same name but diff parameters
+* Method Signature - methodName + Parameter types [ex.: computeSalePrice(double, double)]
+
+= CALLING METHODS =
+* Syntax - methodName(Arguments) [Ex.: napTime(15)]
+- Call method by name and provide required arguments.
+
+Access modifier - Public, private, protected (not required)
+Optional Specifier - Final[cannot be override], Static[No need to create an object to access], Abstract[] (Not required)
+Return Type - Void, int, String, Double,...(Required)
+Method Name
+Parameter List - ()[required but can be empty]
+Optional Exception list - Throws exception (Not required)
+Method body - { //statements } (Required but can be empty
+
+= 'this' KEYWORD =
+- 'this' refers to the current object (instance variables) in a class
+- Can also call another constructor in constructor overloading

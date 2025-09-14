@@ -1,0 +1,32 @@
+= WHY OBJECT ORIENTED PROGRAMMING MATTERS =
+
+Scanner scan = new Scanner(System.in)
+
+Scanner -> Class
+Scan -> Object
+Scanner(System.in) -> constructor
+
+ClassName(){
+NAKATAGONG CONSTRUCTOR SA ISANG BUONG PROGRAM OR UNDER 1 CLASS
+}
+
+= THE PROBLEM WITH PROCEDURAL PROGRAMMING =
+1. Divided into procedures and functions
+2. Works for small programs
+3. Becomes difficult to manage in large systems
+4. data and logic are separated, leading to complexity
+
+OBJECT ORIENTED PROGRAMMING
+EX.:
+1 chef cooks
+1 serves
+1 handles orders
+
+- Organizes codes into reusable objects
+- groups data and behavior together
+- makes large system manageable and scalable
+- Promotes code reuse and easier maintenance
+
+= ADVANTAGES =
+* Less repetition
+* Better organization

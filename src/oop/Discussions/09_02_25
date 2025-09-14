@@ -1,0 +1,44 @@
+= ENCAPSULATION =
+- A way of making specific objects hidden.
+
+GETTER & SETTER - are public methods to modify and retrieve the hidden objects' data.
+
+public void setName(){} - SETTER
+public int getNumber(){} - GETTER
+
+IMMUTABLE CLASSES
+- It remains unchanged after an object of another class is constructed.
+- Declare the class as final
+- not contains setter methods
+
+/extends/ keyword is used for class inheritance
+
+SUPERCLASS - a class from which the subclass is derived (AKA base class or parent class)
+SUBCLASS
+
+
+class ChildClass extends ParentClass { }
+
+
+INHERITANCE
+* Multiple
+* Single
+* Hierarchical
+
+=SINGLE=
+class person {
+}
+class Baby extends Person{
+}
+
+= MULTI LEVEL =
+class Animal{
+}
+class Dog extends Animal{
+}
+class Puppy extends Animal{}
+
+=HIERARCHICAL=
+
+
+OBJECT CLASS - the only class that does not have a parent class
