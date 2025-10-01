@@ -1,9 +1,9 @@
 package oop.Exercises.PracticeActivty3;
 
 public class Electronics extends Product {
-    public Electronics(String name, double price) {
-        setName(name);
-        setPrice(price);
+
+    Electronics(String name, int price) {
+        super(name, price);
     }
 
     @Override
