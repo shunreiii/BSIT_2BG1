@@ -9,6 +9,8 @@ public class LinkedMain {
         list.addTails(15);
         list.addTails(20);
         list.addTails(25);
+        list.addHead(100);
+        list.addHead(115);
         list.display();
 
         System.out.println("\n");
